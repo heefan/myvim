@@ -1,1 +1,1 @@
-# myvim
+the settings for SPF13-VIM

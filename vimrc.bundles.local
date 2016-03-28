@@ -1,0 +1,5 @@
+Bundle 'vim-scripts/Visual-Mark'
+Bundle 'vim-scripts/c.vim'
+Bundle 'ervandew/supertab'
+Bundle 'vim-scripts/a.vim'
+Bundle 'vim-airline/vim-airline-themes'
