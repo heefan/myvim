@@ -83,3 +83,15 @@ let superTabDefaultCompletionType = "<c-x><c-u>"
 if has("gui_running")
     set guifont=Monaco:h13
 endif
+
+"""""""""""""""""""""""
+" Taglist
+"""""""""""""""""""""""
+let Tlist_Show_One_File=1
+let Tlist_Exit_OnlyWindow=1
+
+"""""""""""""""""""""
+" WinManager
+""""""""""""""""""""
+let g:winManagerWindowLayout='FileExplorer|TagList'
+nmap wm :WMToggle<cr> 
