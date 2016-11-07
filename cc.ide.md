@@ -32,3 +32,5 @@ Usage:
 
 vim:
 :cs find g foo    #find globally foo function
+
+
