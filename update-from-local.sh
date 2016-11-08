@@ -1,3 +1,3 @@
 cp ~/.vimrc.local vimrc.local
-cp ~/.vimrc.bundle.local vimrc.bundle.local
+cp ~/.vimrc.bundles.local vimrc.bundles.local
 
