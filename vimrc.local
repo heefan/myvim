@@ -44,8 +44,12 @@ nnoremap <leader>gg :YcmCompleter GoToDefinitionElseDeclaration<CR>
 " <<<<<<<<<<<< YouCompleteMe <<<<<<<<<<< END
 
 
-" Setup GVIM Fonts
-if has("gui_running")
-    set guifont=Monaco:h13
-endif
+" Plugin: airline
+" enable tabs
+let g:airline#extensions#tabline#enabled = 1
 
+" Plugin: Taglist + WinManager
+let Tlist_Show_One_File=1
+let Tlist_Exit_OnlyWindow=1
+let g:winManagerWindowLayout='FileExplorer|TagList'
+nmap wm :WMToggle<cr>
