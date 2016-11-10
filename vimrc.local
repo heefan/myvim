@@ -53,3 +53,7 @@ let Tlist_Show_One_File=1
 let Tlist_Exit_OnlyWindow=1
 let g:winManagerWindowLayout='FileExplorer|TagList'
 nmap wm :WMToggle<cr>
+
+"https://github.com/tpope/tpope/blob/c0af0f5ecb6f26d98e668bf1a81617e918952274/.vimrc#L482
+autocmd FileType c,cpp,java setlocal commentstring=//\ %s
+
