@@ -4,5 +4,5 @@ Bundle 'vim-scripts/a.vim'
 Bundle 'jalcine/cmake.vim'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'vim-scripts/taglist.vim'
-Bundle 'vim-scripts/winmanager--Fox'
+Bundle 'vim-scripts/winmanager--Fox'	
 " nathanaelkane/vim-indent-guides   "vertical line
