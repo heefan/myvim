@@ -142,3 +142,4 @@ export ANDROID_HOME=/programs/Android/Sdk
 export ANDROID_NDK_HOME=/programs/Android/Sdk/ndk-bundle/
 
 export MEDL_WORKSPACE=/home/heefan/gemalto/MEDL-Android
+export MEDL_SDK_VERSION=2.1.0
